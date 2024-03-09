@@ -1,1 +1,2 @@
-Hey, Pratik this side. I'm a professional developer updating this text file for the demo of git and github.
+Hey, Pratik this side. I'm a professional developer updating this text file for the demo of git and Git Hub.
+Updating this content to demonstrate the process of fork->contribute->branch->merge pull request.
