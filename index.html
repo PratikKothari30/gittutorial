@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, intial-scale-1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/pratiklogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href=#header>Home</a></li>
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#projects>Projects</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                    <img width="20" height="20" src="https://img.icons8.com/nolan/64/delete-sign.png" class="delete-sign" onclick="closemenu()"/>
+                </ul>
+                <img width="30" height="30" src="https://img.icons8.com/nolan/64/menu.png" class="delete-sign" onclick="openmenu()"/>
+            </nav> 
+            <div class="header-text">
+                <h4>An E&TC Engineer</h4>
+                <h3>Hello I am <span>Pratik Kothari</span><br>from Maharashtra,India</h3>
+            </div>
+        </div>
+    </div>
+    <!-- ---------About------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Currently pursuing E&TC engineering from Dr. D. Y. Patil Institute of Technology, Pimpri, Pune. Seeking a career in a globally growing organization that provides various opportunities to learn and contribute. I having technical expertise in E&TC
+                        And Proficient in Programming Languages. And I can use my skills and knowledge to achieve the company’s goal.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Internship')">Internship</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>JAVA, C++ Programming</span><br>Moderate Level</li>
+                            <li><span>HTML</span><br>for Web Development</li>
+                            <li><span>CSS</span><br>For styling Webpages</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2020-current</span><br>BE(E&TC) at DYPIT</li>
+                            <li><span>completed in 2020</span><br>HSC (12th) From Mhalsakant Vidyalaya</li>
+                            <li><span>completed in 2018</span><br>SSC (10th) from CES's Prerana High School</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Internship">
+                        <ul>
+                            <li><span>OASIS Web Developer Intern</span><br>Online Web Development Internship</li>
+                            <li><span>MATLAB Internship</span><br>In this Internship I completed 5 Courses</li>
+                            <li><span>Web Development course</span><br>Builded Different Webpages</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+<!-- -----------------Projects----------------------------------- --> 
+<section id="projects" class="project-section">
+    <div class="center">
+      <h1 class="space-issue">Below are some of my projects</h1>
+    </div>
+    <div class="grid-container">
+      <article class="project-tile" id="project1" claas="center">
+        <a class="fig-nav" href="https://pratikkothari30.github.io/Survey-Form/" target="_blank">
+          <figure class="fig-container">
+            <img src="C:\TE SEM-6\Personal Portfolio Project\images\survey.png" alt="Survey Form">
+            <figcaption>Survey Form</figcaption>
+          </figure>
+        </a>  
+      </article>
+      <article class="center" class="project-tile" id="project2">
+        <a class="fig-nav" href="https://github.com/PratikKothari30/OIBSIP/tree/main/OasisInfobyte%20Level-1%20Task-3" target="_blank">
+          <figure class="fig-container">
+            <img src="C:\TE SEM-6\Personal Portfolio Project\images\Temperature.png" alt="Temperature Converter">
+            <figcaption>Temperature Converter</figcaption>
+          </figure>
+        </a>  
+      </article>
+      <article class="center" class="project-tile" id="project3">
+        <a class="fig-nav" href="https://pratikkothari30.github.io/Technical-Documentation/" target="_blank">
+          <figure class="fig-container">
+            <img src="C:\TE SEM-6\Personal Portfolio Project\images\tech.png" alt="Technical Documentation Page">
+            <figcaption>Technical Documentation Page</figcaption>
+          </figure>
+        </a>  
+      </article>
+      <article class="center" class="project-tile" id="project4">
+        <a class="fig-nav" href="https://github.com/PratikKothari30/OIBSIP/tree/main/OasisInfobyte%20Level-1%20Task-1" target="_blank">
+          <figure class="fig-container">
+            <img src="C:\TE SEM-6\Personal Portfolio Project\images\Landing-Page.png" alt="Landing-Page Page">
+            <figcaption>Landing Page</figcaption>
+          </figure>
+        </a>  
+      </article>
+      <br>
+    </section>
+    <!-- ------------------------CONTACT--------------------------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me using<br>the below options</h1>
+            <p>MOB. No. = 7038016355</p>
+            <div id="links">
+            <a id="profile-link" target="_blank" href=https://www.linkedin.com/in/pratik-kothari-537b51218><img src="https://img.icons8.com/bubbles/150/000000/linkedin.png"/></a>
+            <a id="profile-link" target="_blank" href="https://github.com/PratikKothari30"><img src="https://img.icons8.com/bubbles/150/000000/github.png"/></a>
+            <a id="profile-link" target="_blank" href="https://www.instagram.com/pratikkothari02/"><img src="https://img.icons8.com/bubbles/150/instagram-new--v2.png"/></a>
+          </div>
+          <a href="images/Pratik Resume.pdf" download class="btn btn2">Download Resume</a>
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="8" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg">Hello</span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+          <p>Copyright © Pratik. </p>
+      </div>
+    </div>
+    <a href="#" class="top"><img width="40" height="40" src="https://img.icons8.com/emoji/48/up-arrow-emoji.png" alt="up-arrow-emoji"/></img></a>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+  
+      function opentab(tabname){
+          for(tablink of tablinks){
+          tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+          tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab"); 
+      }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzI5F3KRdeUMlySl1YuzP79vNU4u95fEZyzaioX2gmPxE61VmldY1__ktHl0ar8t1Tp9A/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message Sent Successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""  
+          },4000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-180px";
+    }
+  </script>
+</body>
+</html>
